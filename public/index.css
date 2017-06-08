@@ -1,0 +1,59 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.header {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.content {
+  max-width: 90vw;
+
+  font-size: 18px;
+}
+
+.content h3 {
+  text-align: center;
+}
+
+.content p {
+  background: lightgray;
+
+  color: red;
+  font-family: Monospace;
+  font-size: 14px;
+}
+
+.content div {
+  margin-left: 20px;
+}
+
+.content .code {
+  margin: 0;
+
+  background: lightgray;
+
+  color: red;
+  font-family: Monospace;
+  font-size: 14px;
+}
+
+.footer {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+
+  margin-top: 30px;
+}
